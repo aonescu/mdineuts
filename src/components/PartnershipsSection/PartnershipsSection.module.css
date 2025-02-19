@@ -1,0 +1,162 @@
+.section {
+    border-top: 1px solid var(--UI-Dark-2, rgba(0, 0, 0, 0.2));
+    background-color: #fefdf8;
+    padding: 32px 32px 64px;
+    overflow: hidden;
+  }
+  
+  .container {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    gap: 32px;
+    justify-content: start;
+    flex-wrap: wrap;
+  }
+  
+  .contentContainer {
+    align-self: start;
+    min-width: 240px;
+    font-family:
+      Onest,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+    color: #000000;
+    flex: 1 1 531px;
+  }
+  
+  .contentWrapper {
+    max-width: 664px;
+  }
+  
+  .headerContainer {
+    display: flex;
+    width: 100%;
+    max-width: 664px;
+    flex-direction: column;
+    align-items: stretch;
+    font-size: 48px;
+    font-weight: 900;
+    justify-content: start;
+  }
+  
+  .sectionTitle {
+    leading-trim: both;
+    text-edge: cap;
+    align-self: start;
+    gap: 10px;
+    white-space: nowrap;
+    letter-spacing: -1.44px;
+    line-height: 1;
+  }
+  
+  .mainTitle {
+    leading-trim: both;
+    text-edge: cap;
+    line-height: 0.9;
+    letter-spacing: -1.92px;
+    margin-top: 16px;
+  }
+  
+  .description {
+    leading-trim: both;
+    text-edge: cap;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.16px;
+    margin-top: 32px;
+  }
+  
+  .partnersGrid {
+    display: flex;
+    min-width: 240px;
+    align-items: center;
+    gap: 8px;
+    overflow: hidden;
+    justify-content: start;
+    flex-wrap: wrap;
+    height: 100%;
+    flex: 1 1 547px;
+  }
+  
+  .logoContainer {
+    align-self: stretch;
+    display: flex;
+    margin: auto 0;
+    padding: 38px 36px;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: stretch;
+    justify-content: center;
+    flex: 1 1 177px;
+  }
+  
+  .partnerLogo {
+    aspect-ratio: 4.41;
+    object-fit: contain;
+    object-position: center;
+    width: 150px;
+  }
+  
+  .partnerLogo2 {
+    aspect-ratio: 4.22;
+    object-fit: contain;
+    object-position: center;
+    width: 135px;
+  }
+  
+  .standaloneLogo {
+    aspect-ratio: 2.01;
+    object-fit: contain;
+    object-position: center;
+    width: 177px;
+    align-self: stretch;
+    margin: auto 0;
+    flex: 1 1 auto;
+  }
+  
+  @media (max-width: 991px) {
+    .section {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    .container {
+      max-width: 100%;
+    }
+  
+    .contentContainer {
+      max-width: 100%;
+    }
+  
+    .headerContainer {
+      max-width: 100%;
+      font-size: 40px;
+    }
+  
+    .sectionTitle {
+      font-size: 40px;
+      white-space: initial;
+    }
+  
+    .mainTitle {
+      max-width: 100%;
+      font-size: 40px;
+    }
+  
+    .description {
+      max-width: 100%;
+    }
+  
+    .partnersGrid {
+      max-width: 100%;
+    }
+  
+    .logoContainer {
+      padding: 20px;
+    }
+  }
+  

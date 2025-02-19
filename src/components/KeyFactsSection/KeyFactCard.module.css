@@ -1,0 +1,68 @@
+.factCard {
+    justify-content: center;
+    align-items: stretch;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.05);
+    display: flex;
+    padding: 8px;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 178px;
+  }
+  
+  .title {
+    font-size: 12px;
+    line-height: 1.4;
+    margin: 0;
+    font-weight: normal;
+  }
+  
+  .content {
+    display: flex;
+    margin-top: 32px;
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .valueWrapper {
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-size: 24px;
+    letter-spacing: -0.48px;
+    line-height: 1.3;
+  }
+  
+  .icon {
+    align-self: stretch;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 20px;
+    flex-shrink: 0;
+    height: 20px;
+  }
+  
+  .value {
+    align-self: stretch;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .description {
+    margin: 8px 0 0;
+    font-size: 12px;
+    line-height: 1.4;
+  }
+  
+  .extraInfo {
+    margin: 8px 0 0;
+    font-size: 12px;
+    line-height: 1.4;
+  }
+  

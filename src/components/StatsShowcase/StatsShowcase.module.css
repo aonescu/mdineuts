@@ -1,0 +1,116 @@
+.statsShowcase {
+    align-items: start;
+    border-radius: 8px;
+    background: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.4) 0%,
+        rgba(255, 255, 255, 0.4) 100%
+      ),
+      #ffd200;
+    display: flex;
+    padding: 32px;
+    gap: 16px;
+    overflow: hidden;
+    font-family:
+      Onest,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+    color: #000000;
+    justify-content: start;
+    flex-wrap: wrap;
+  }
+  
+  @media (max-width: 991px) {
+    .statsShowcase {
+      padding: 20px;
+    }
+  }
+  
+  .statsSection {
+    min-width: 240px;
+    min-height: 298px;
+    padding: 16px 16px 68px;
+    flex: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+  }
+  
+  .statsSectionCentered {
+    composes: statsSection;
+    min-height: 246px;
+    padding-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+  }
+  
+  .statsSectionSpaced {
+    composes: statsSection;
+    min-height: 276px;
+  }
+  
+  @media (max-width: 991px) {
+    .statsSection,
+    .statsSectionCentered,
+    .statsSectionSpaced {
+      max-width: 100%;
+    }
+  }
+  
+  .statsContent {
+    width: 100%;
+  }
+  
+  .statsHeader {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    font-size: 48px;
+    font-weight: 900;
+    justify-content: start;
+  }
+  
+  @media (max-width: 991px) {
+    .statsHeader {
+      font-size: 40px;
+    }
+  }
+  
+  .statsNumber {
+    align-self: start;
+    white-space: nowrap;
+    letter-spacing: -1.44px;
+    line-height: 1;
+  }
+  
+  @media (max-width: 991px) {
+    .statsNumber {
+      font-size: 40px;
+      white-space: initial;
+    }
+  }
+  
+  .statsTitle {
+    line-height: 0.9;
+    letter-spacing: -1.92px;
+    margin-top: 16px;
+  }
+  
+  @media (max-width: 991px) {
+    .statsTitle {
+      font-size: 40px;
+    }
+  }
+  
+  .statsDescription {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.16px;
+    margin-top: 32px;
+  }
+  

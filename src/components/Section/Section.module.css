@@ -1,0 +1,239 @@
+.section {
+    display: flex;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 80px;
+    align-items: stretch;
+    gap: 32px;
+    font-family:
+      Onest,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+    color: #000000;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  @media (max-width: 991px) {
+    .section {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  
+  .sectionTextContainer {
+    align-self: start;
+    min-width: 240px;
+    width: 664px;
+  }
+  
+  @media (max-width: 991px) {
+    .sectionTextContainer {
+      max-width: 100%;
+    }
+  }
+  
+  .div {
+    max-width: 100%;
+    width: 664px;
+  }
+  
+  .sectionHeader {
+    display: flex;
+    width: 100%;
+    max-width: 664px;
+    flex-direction: column;
+    align-items: stretch;
+    font-size: 48px;
+    font-weight: 900;
+    justify-content: start;
+  }
+  
+  @media (max-width: 991px) {
+    .sectionHeader {
+      max-width: 100%;
+      font-size: 40px;
+    }
+  }
+  
+  .sectionHeader2 {
+    leading-trim: both;
+    text-edge: cap;
+    align-self: start;
+    gap: 10px;
+    letter-spacing: -1.44px;
+    line-height: 1;
+  }
+  
+  @media (max-width: 991px) {
+    .sectionHeader2 {
+      max-width: 100%;
+      font-size: 40px;
+    }
+  }
+  
+  .title {
+    leading-trim: both;
+    text-edge: cap;
+    line-height: 0.9;
+    letter-spacing: -1.92px;
+    margin-top: 16px;
+  }
+  
+  @media (max-width: 991px) {
+    .title {
+      max-width: 100%;
+      font-size: 40px;
+    }
+  }
+  
+  .bodyTextLoremIpsumDolorSitAmetConsecteturAdipiscingElitSedDoEiusmodTemporIncididuntUtLaboreEtDoloreMagnaAliquaUtEnimAdMinimVeniamQuisNostrudExercitationUllamcoLaborisNisiUtAliquipExEaCommodoConsequatDuisAuteIrureDolorInReprehenderitInVoluptateVelitEsseCillumDoloreEuFugiatNullaPariaturExcepteurSintOccaecatCupidatatNonProidentSuntInCulpaQuiOfficiaDeseruntMollitAnimIdEstLaborum {
+    leading-trim: both;
+    text-edge: cap;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.16px;
+    margin-top: 32px;
+  }
+  
+  @media (max-width: 991px) {
+    .bodyTextLoremIpsumDolorSitAmetConsecteturAdipiscingElitSedDoEiusmodTemporIncididuntUtLaboreEtDoloreMagnaAliquaUtEnimAdMinimVeniamQuisNostrudExercitationUllamcoLaborisNisiUtAliquipExEaCommodoConsequatDuisAuteIrureDolorInReprehenderitInVoluptateVelitEsseCillumDoloreEuFugiatNullaPariaturExcepteurSintOccaecatCupidatatNonProidentSuntInCulpaQuiOfficiaDeseruntMollitAnimIdEstLaborum {
+      max-width: 100%;
+    }
+  }
+  
+  .grid {
+    display: flex;
+    min-width: 240px;
+    align-items: start;
+    gap: 8px;
+    justify-content: start;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 680px;
+  }
+  
+  @media (max-width: 991px) {
+    .grid {
+      max-width: 100%;
+    }
+  }
+  
+  .factCard {
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.05);
+    min-width: 240px;
+    min-height: 112px;
+    padding: 8px;
+    width: 336px;
+  }
+  
+  .label {
+    leading-trim: both;
+    text-edge: cap;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.4;
+  }
+  
+  .container {
+    display: flex;
+    margin-top: 49px;
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: -0.96px;
+    line-height: 1.1;
+    justify-content: start;
+  }
+  
+  @media (max-width: 991px) {
+    .container {
+      margin-top: 40px;
+    }
+  }
+  
+  .label2 {
+    align-self: start;
+    display: flex;
+    align-items: end;
+    gap: 2px;
+    justify-content: start;
+  }
+  
+  .materialSymbolsIcons {
+    display: flex;
+    width: 20px;
+    flex-shrink: 0;
+    height: 20px;
+  }
+  
+  .label3 {
+    leading-trim: both;
+    text-edge: cap;
+  }
+  
+  .subtext {
+    display: flex;
+    min-height: 8px;
+    margin-top: 8px;
+    width: 100%;
+    gap: 8px;
+  }
+  
+  .factCard2 {
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.05);
+    min-width: 240px;
+    min-height: 112px;
+    padding: 8px;
+    flex: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+  }
+  
+  @media (max-width: 991px) {
+    .factCard2 {
+      max-width: 100%;
+    }
+  }
+  
+  .container2 {
+    display: flex;
+    margin-top: 49px;
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: -0.96px;
+    line-height: 1.1;
+    justify-content: start;
+  }
+  
+  @media (max-width: 991px) {
+    .container2 {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  
+  .subtext2 {
+    display: flex;
+    min-height: 8px;
+    margin-top: 8px;
+    width: 100%;
+    gap: 8px;
+  }
+  
+  @media (max-width: 991px) {
+    .subtext2 {
+      max-width: 100%;
+    }
+  }
+  

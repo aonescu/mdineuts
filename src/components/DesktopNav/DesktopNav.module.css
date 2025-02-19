@@ -1,0 +1,110 @@
+.desktopNav {
+  background-color: rgba(255, 255, 255, 0);
+  display: flex;
+  padding: 8px 32px;
+  align-items: center;
+  gap: 40px 100px;
+  overflow: hidden;
+  font-family:
+    Onest,
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+  font-size: 16px;
+  color: #000000;
+  font-weight: 400;
+  letter-spacing: -0.16px;
+  line-height: 1.4;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.moldovaInEu {
+  width: 140px;
+  height: 48px;
+  flex-shrink: 0;
+}
+
+.navigationContainer {
+  display: flex;
+  min-width: 240px;
+  align-items: center;
+  gap: 32px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.navLinksContainer {
+  display: flex;
+  min-width: 240px;
+  align-items: center;
+  gap: 16px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navLink {
+  padding: 7px 8px;
+  min-height: 24px;
+  text-decoration: none;
+  color: inherit;
+  white-space: nowrap;
+}
+
+.languageSelector {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding: 2px 8px;
+  min-height: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+.languageIcon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.languageLabel {
+  margin: auto 0;
+}
+
+.languageArrow {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+@media (max-width: 991px) {
+  .desktopNav {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .navigationContainer {
+    max-width: 100%;
+  }
+
+  .navLinksContainer {
+    max-width: 100%;
+  }
+
+  .navLink {
+    white-space: initial;
+  }
+
+  .languageSelector {
+    white-space: initial;
+  }
+}

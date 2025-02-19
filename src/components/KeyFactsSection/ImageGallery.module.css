@@ -1,0 +1,60 @@
+.gallery {
+    display: flex;
+    margin-top: 32px;
+    min-height: 479px;
+    max-width: 100%;
+    width: 1376px;
+    align-items: flex-start;
+    gap: 16px;
+    overflow: hidden;
+    flex-wrap: wrap;
+  }
+  
+  .imageWrapper {
+    border-radius: 8px;
+    min-width: 240px;
+    overflow: hidden;
+    flex: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    margin: 0;
+  }
+  
+  .image {
+    aspect-ratio: 0.94;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+  }
+  
+  .imageContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: 479px;
+    width: 100%;
+  }
+  
+  .backgroundImage {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  @media (max-width: 991px) {
+    .imageWrapper {
+      max-width: 100%;
+    }
+  
+    .image {
+      max-width: 100%;
+    }
+  
+    .imageContainer {
+      max-width: 100%;
+    }
+  }
+  

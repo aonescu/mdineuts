@@ -1,0 +1,263 @@
+.newsletter {
+    justify-content: space-between;
+    align-items: start;
+    align-self: stretch;
+    border-radius: 8px;
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 100%
+      ),
+      #007a50;
+    display: flex;
+    padding: 32px;
+    overflow: hidden;
+  }
+  
+  @media (max-width: 991px) {
+    .newsletter {
+      padding: 20px;
+    }
+  }
+  
+  .sectionTextContainer {
+    min-width: 240px;
+    font-family:
+      Onest,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+    color: #010101;
+    font-weight: 400;
+    width: 664px;
+  }
+  
+  @media (max-width: 991px) {
+    .sectionTextContainer {
+      max-width: 100%;
+    }
+  }
+  
+  .contentWrapper {
+    display: flex;
+    width: 100%;
+    max-width: 664px;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  @media (max-width: 991px) {
+    .contentWrapper {
+      max-width: 100%;
+    }
+  }
+  
+  .sectionHeader {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    font-size: 48px;
+    font-weight: 900;
+  }
+  
+  @media (max-width: 991px) {
+    .sectionHeader {
+      max-width: 100%;
+      font-size: 40px;
+    }
+  }
+  
+  .sectionHeader2 {
+    align-self: start;
+    gap: 10px;
+    white-space: nowrap;
+    letter-spacing: -1.44px;
+    line-height: 1;
+  }
+  
+  @media (max-width: 991px) {
+    .sectionHeader2 {
+      font-size: 40px;
+      white-space: initial;
+    }
+  }
+  
+  .title {
+    line-height: 0.9;
+    letter-spacing: -1.92px;
+    margin-top: 16px;
+  }
+  
+  @media (max-width: 991px) {
+    .title {
+      max-width: 100%;
+      font-size: 40px;
+    }
+  }
+  
+  .bodyText {
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: -0.4px;
+    margin-top: 32px;
+  }
+  
+  @media (max-width: 991px) {
+    .bodyText {
+      max-width: 100%;
+    }
+  }
+  
+  .buttonRow {
+    align-self: start;
+    display: flex;
+    margin-top: 32px;
+    align-items: start;
+    gap: 8px;
+    font-family:
+      Inter,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: -0.16px;
+    line-height: 1.6;
+  }
+  
+  .button {
+    font-feature-settings:
+      "case" on,
+      "cpsp" on,
+      "titl" on,
+      "dlig" on,
+      "ss03" on,
+      "ss04" on,
+      "ss05" on,
+      "ss08" on,
+      "ss10" on,
+      "ss19" on,
+      "ss20" on,
+      "cv10" on;
+    align-self: stretch;
+    border-radius: 96px;
+    background: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.2) 0%,
+        rgba(255, 255, 255, 0.2) 100%
+      ),
+      #ffd200;
+    min-height: 32px;
+    padding: 3px 16px;
+    gap: 2px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .imageContainer {
+    display: flex;
+    min-width: 240px;
+    min-height: 505px;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-between;
+    width: 679px;
+  }
+  
+  @media (max-width: 991px) {
+    .imageContainer {
+      max-width: 100%;
+    }
+  }
+  
+  .image {
+    width: 448px;
+    max-width: 100%;
+    flex: 1;
+    margin: 0;
+  }
+  
+  .imageWrapper {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    position: relative;
+    min-height: 475px;
+    width: 100%;
+    overflow: hidden;
+    flex: 1;
+  }
+  
+  @media (max-width: 991px) {
+    .imageWrapper {
+      max-width: 100%;
+    }
+  }
+  
+  .backgroundImage {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .foregroundImage {
+    aspect-ratio: 0.94;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+  }
+  
+  @media (max-width: 991px) {
+    .foregroundImage {
+      max-width: 100%;
+    }
+  }
+  
+  .imageCaption {
+    border-radius: 8px;
+    display: flex;
+    width: 100%;
+    padding: 4px;
+    align-items: center;
+    gap: 2px;
+    font-family:
+      Onest,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+    font-size: 14px;
+    color: #010101;
+    font-weight: 400;
+    letter-spacing: -0.28px;
+    line-height: 1.4;
+  }
+  
+  @media (max-width: 991px) {
+    .imageCaption {
+      max-width: 100%;
+    }
+  }
+  
+  .materialSymbolsIcons {
+    align-self: stretch;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 20px;
+    flex-shrink: 0;
+    height: 20px;
+  }
+  
+  .label {
+    align-self: stretch;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
