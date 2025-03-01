@@ -14,6 +14,7 @@ import EUInMoldova from './pages/EUInMoldova';
 import Stories from './pages/Stories';
 import Toolbox from './pages/Toolbox';
 import { EUAccessionClusters } from './components/EUAccessionClusters/EUAccessionClusters';
+import VideoContainer from './components/VideoContainer/VideoContainer';
 import './styles/global.css';
 
 const App = () => {
@@ -30,6 +31,7 @@ const App = () => {
             <Route path="/toolbox" element={<Toolbox />} />
           </Routes>
           <StatsShowcase />
+          <VideoContainer />
           <EUAccessionClusters />
           <StoriesSection 
             title="Sample Title" 

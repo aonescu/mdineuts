@@ -1,0 +1,25 @@
+.videoContainer {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .backgroundImage {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  @media (width <= 991px) {
+    .videoContainer {
+      height: 80vh;
+    }
+  }
+  
+  @media (width <= 640px) {
+    .videoContainer {
+      height: 60vh;
+    }
+  }
+  
