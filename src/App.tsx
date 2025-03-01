@@ -13,6 +13,7 @@ import MoldovaInEU from './pages/MoldovaInEU';
 import EUInMoldova from './pages/EUInMoldova';
 import Stories from './pages/Stories';
 import Toolbox from './pages/Toolbox';
+import { EUAccessionClusters } from './components/EUAccessionClusters/EUAccessionClusters';
 import './styles/global.css';
 
 const App = () => {
@@ -29,6 +30,7 @@ const App = () => {
             <Route path="/toolbox" element={<Toolbox />} />
           </Routes>
           <StatsShowcase />
+          <EUAccessionClusters />
           <StoriesSection 
             title="Sample Title" 
             subtitle="Sample Subtitle" 
