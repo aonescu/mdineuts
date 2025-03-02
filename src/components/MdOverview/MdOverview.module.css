@@ -1,0 +1,154 @@
+.container {
+    background-color: #fefdf8;
+    border-top: 1px solid #0003;
+    padding: 32px 32px 64px;
+  }
+  
+  @media (width<=640px) {
+    .container {
+      padding: 16px;
+    }
+  }
+  
+  .contentWrapper {
+    gap: 48px;
+    margin-bottom: 32px;
+    display: flex;
+  }
+  
+  @media (width<=991px) {
+    .contentWrapper {
+      flex-direction: column;
+    }
+  }
+  
+  .textSection {
+    flex: 1;
+    max-width: 664px;
+  }
+  
+  @media (width<=991px) {
+    .textSection {
+      max-width: 100%;
+    }
+  }
+  
+  .heading {
+    color: #1a1a1a;
+    letter-spacing: -1.92px;
+    margin-bottom: 32px;
+    font-family: Onest, sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 100%;
+  }
+  
+  @media (width<=640px) {
+    .heading {
+      letter-spacing: -1.28px;
+      font-size: 32px;
+    }
+  }
+  
+  .description {
+    color: #333;
+    letter-spacing: -0.16px;
+    font-family: Onest, sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+    margin-bottom: 16px;
+  }
+  
+  .description:last-child {
+    margin-bottom: 0;
+  }
+  
+  .bold {
+    font-weight: 700;
+    margin: 0 4px;
+  }
+  
+  .imageSection {
+    flex: 1;
+  }
+  
+  @media (width<=991px) {
+    .imageSection {
+      max-width: 100%;
+    }
+  }
+  
+  .imageContainer {
+    position: relative;
+  }
+  
+  .mainImage {
+    object-fit: cover;
+    border-radius: 8px;
+    width: 100%;
+    height: 570px;
+  }
+  
+  .captionContainer {
+    align-items: center;
+    gap: 4px;
+    margin-top: 2px;
+    padding: 4px;
+    display: flex;
+  }
+  
+  .captionText {
+    color: #0006;
+    letter-spacing: -0.28px;
+    font-family: Onest, sans-serif;
+    font-size: 14px;
+    line-height: 140%;
+  }
+  
+  .statsContainer {
+    justify-content: space-between;
+    gap: 8px;
+    display: flex;
+  }
+  
+  @media (width<=991px) {
+    .statsContainer {
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+  }
+  
+  @media (width<=640px) {
+    .statsContainer {
+      flex-direction: column;
+    }
+  }
+  
+  .statCard {
+    background: linear-gradient(#fffc, #fffc), #ffd200;
+    border-radius: 8px;
+    flex: 1;
+    padding: 8px;
+  }
+  
+  @media (width<=991px) {
+    .statCard {
+      min-width: calc(50% - 8px);
+    }
+  }
+  
+  @media (width<=640px) {
+    .statCard {
+      width: 100%;
+    }
+  }
+  
+  .statText {
+    color: #000c;
+    letter-spacing: -0.48px;
+    font-family: Onest, sans-serif;
+    font-size: 24px;
+    line-height: 130%;
+    margin: 4px 0 0;
+  }
+  

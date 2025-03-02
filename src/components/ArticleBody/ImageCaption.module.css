@@ -1,0 +1,35 @@
+.imageCaption {
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    width: 100%;
+    margin-top: 8px;
+    padding: 4px;
+    color: #000;
+    font-family:
+      Onest,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: -0.28px;
+  }
+  
+  .icon {
+    flex-shrink: 0;
+    align-self: stretch;
+    width: 20px;
+    height: 20px;
+    margin: auto 0;
+    display: flex;
+  }
+  
+  .label {
+    margin: auto 0;
+    align-self: stretch;
+  }
+  

@@ -1,0 +1,217 @@
+.header {
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    padding: 119px 32px 32px;
+    font-family:
+      Onest,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+    display: flex;
+    overflow: hidden;
+  }
+  
+  @media (width <= 991px) {
+    .header {
+      padding-top: 100px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  
+  .titleColumn {
+    width: 1145px;
+    max-width: 100%;
+  }
+  
+  .titleWrapper {
+    width: 100%;
+  }
+  
+  @media (width <= 991px) {
+    .titleWrapper {
+      max-width: 100%;
+    }
+  }
+  
+  .titleContainer {
+    letter-spacing: -2.88px;
+    width: 100%;
+    font-size: 72px;
+  }
+  
+  @media (width <= 991px) {
+    .titleContainer {
+      max-width: 100%;
+      font-size: 40px;
+    }
+  }
+  
+  .categoryTitle {
+    color: #000;
+    leading-trim: both;
+    text-edge: cap;
+    font-weight: 400;
+    line-height: 0.9;
+  }
+  
+  @media (width <= 991px) {
+    .categoryTitle {
+      max-width: 100%;
+      font-size: 40px;
+    }
+  }
+  
+  .mainTitle {
+    color: #1a1a1a;
+    leading-trim: both;
+    text-edge: cap;
+    margin-top: 16px;
+    font-weight: 900;
+    line-height: 72px;
+  }
+  
+  .titlePunctuation {
+    font-weight: 100;
+  }
+  
+  @media (width <= 991px) {
+    .mainTitle {
+      max-width: 100%;
+      font-size: 40px;
+      line-height: 44px;
+    }
+  }
+  
+  .subtitle {
+    color: #1a1a1a;
+    leading-trim: both;
+    text-edge: cap;
+    letter-spacing: -0.48px;
+    margin-top: 32px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31px;
+  }
+  
+  @media (width <= 991px) {
+    .subtitle {
+      max-width: 100%;
+    }
+  }
+  
+  .metadataContainer {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px 41px;
+    width: 679px;
+    max-width: 100%;
+    margin-top: 32px;
+    font-weight: 400;
+    line-height: 1.4;
+    display: flex;
+  }
+  
+  .metadataWrapper {
+    letter-spacing: -0.28px;
+    justify-content: start;
+    align-self: stretch;
+    align-items: center;
+    gap: 16px;
+    min-width: 240px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 14px;
+    display: flex;
+  }
+  
+  @media (width <= 991px) {
+    .metadataWrapper {
+      max-width: 100%;
+    }
+  }
+  
+  .authorInfo {
+    align-self: stretch;
+    width: 216px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  .authorName {
+    color: #1a1a1a;
+    leading-trim: both;
+    text-edge: cap;
+    font-weight: 700;
+    font-size: 14px;
+  }
+  
+  .authorRole {
+    color: gray;
+    leading-trim: both;
+    text-edge: cap;
+    margin-top: 8px;
+  }
+  
+  .articleInfo {
+    align-self: stretch;
+    width: 216px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  .publishDate {
+    color: #1a1a1a;
+    leading-trim: both;
+    text-edge: cap;
+  }
+  
+  .readTime {
+    color: gray;
+    leading-trim: both;
+    text-edge: cap;
+    margin-top: 8px;
+  }
+  
+  .chipContainer {
+    color: #000;
+    white-space: nowrap;
+    letter-spacing: -0.16px;
+    justify-content: start;
+    align-self: stretch;
+    align-items: center;
+    gap: 8px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 16px;
+    display: flex;
+  }
+  
+  @media (width <= 991px) {
+    .chipContainer {
+      white-space: initial;
+    }
+  }
+  
+  .chip {
+    leading-trim: both;
+    text-edge: cap;
+    background-color: #0000000d;
+    border-radius: 64px;
+    align-self: stretch;
+    gap: 2px;
+    min-height: 32px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 11px 12px;
+  }
+  
+  @media (width <= 991px) {
+    .chip {
+      white-space: initial;
+    }
+  }
+  

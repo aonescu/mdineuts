@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"; // Use Link from react-router-dom
 import styles from "./DesktopNav.module.css";
 
 export const NavLinks = () => {
@@ -14,12 +15,12 @@ export const NavLinks = () => {
     <ul className={styles.navLinksContainer}>
       {links.map((link) => (
         <li key={link}>
-          <a
-            href={`#${link.toLowerCase().replace(/\s+/g, "-")}`}
+          <Link
+            to={`/${link.toLowerCase().replace(/\s+/g, "-")}`} // Use Link and remove the # symbol
             className={styles.navLink}
           >
             {link}
-          </a>
+          </Link>
         </li>
       ))}
     </ul>

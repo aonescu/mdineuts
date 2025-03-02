@@ -1,0 +1,35 @@
+.header {
+    color: #4d4d4d;
+    letter-spacing: -0.48px;
+    width: 664px;
+    max-width: 100%;
+    font-family:
+      Onest,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+  }
+  
+  .title {
+    leading-trim: both;
+    text-edge: cap;
+    line-height: 1.3;
+  }
+  
+  .introduction {
+    leading-trim: both;
+    text-edge: cap;
+    margin-top: 32px;
+    line-height: 31px;
+  }
+  
+  @media (width <= 991px) {
+    .title,
+    .introduction {
+      max-width: 100%;
+    }
+  }
+  

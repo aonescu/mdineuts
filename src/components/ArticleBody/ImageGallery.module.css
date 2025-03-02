@@ -1,0 +1,43 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+    gap: 16px;
+    margin-top: 64px;
+  }
+  
+  .imageContainer {
+    width: 435px;
+    min-width: 240px;
+    margin: 0;
+  }
+  
+  .image {
+    border-radius: 8px;
+    width: 100%;
+    padding-left: 1px;
+    padding-right: 1px;
+    overflow: hidden;
+  }
+  
+  .placeholder {
+    background-color: #e5e5e5;
+    flex-shrink: 0;
+    height: 500px;
+    display: flex;
+  }
+  
+  @media (width <= 991px) {
+    .gallery {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  
+    .imageContainer,
+    .image,
+    .placeholder {
+      max-width: 100%;
+    }
+  }
+  
