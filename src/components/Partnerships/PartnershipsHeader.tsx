@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./PartnershipsHeader.module.css";
+import styles from "./Partnerships.module.css";
 
 interface PartnershipsHeaderProps {
   subtitle: string;

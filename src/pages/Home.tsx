@@ -5,16 +5,26 @@ import { EUAccessionClusters } from "../components/EUAccessionClusters/EUAccessi
 import { StoriesSection } from "../components/Stories/StoriesSection";
 import KeyFactsSection from "../components/KeyFactsSection/KeyFactsSection";
 import { MdOverview }from "../components/MdOverview/MdOverview";
+import Newsletter from "../components/Newsletter/Newsletter";
+import Partnerships from "../components/Partnerships/Partnerships";
+import PartnershipsSection from "../components/PartnershipsSection/PartnershipsSection";
+import Publications from "../components/Publications/Publications";
+import SuccessStories from "../components/SuccessStories/SuccessStories";
 
 const Home = () => {
   return (
     <div>
-        <MdOverview />
-      <StatsShowcase />
+        <KeyFactsSection />
       <VideoContainer />
-      <EUAccessionClusters />
+      <StatsShowcase />
       <StoriesSection />
-      <KeyFactsSection />
+      <SuccessStories />
+      <Publications />
+      <EUAccessionClusters />
+      <PartnershipsSection />
+      <Partnerships />
+      <Newsletter />
+      <MdOverview />
     </div>
   );
 };

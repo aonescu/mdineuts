@@ -1,0 +1,57 @@
+.card {
+    background: linear-gradient(#fffc, #fffc), #0046ae;
+    border-radius: 8px;
+    padding: 8px;
+  }
+  
+  .icon {
+    color: #000c;
+    margin-bottom: 4px;
+    font-size: 20px;
+  }
+  
+  .cardContent {
+    padding: 4px;
+  }
+  
+  .cardTitle {
+    color: #000c;
+    letter-spacing: -0.48px;
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 130%;
+  }
+  
+  @media (width <= 640px) {
+    .cardTitle {
+      font-size: 20px;
+    }
+  }
+  
+  .cardDescription {
+    color: #0009;
+    letter-spacing: -0.16px;
+    margin-bottom: 48px;
+    font-size: 16px;
+    line-height: 140%;
+  }
+  
+  @media (width <= 640px) {
+    .cardDescription {
+      margin-bottom: 24px;
+      font-size: 14px;
+    }
+  }
+  
+  .readMore {
+    color: #000c;
+    letter-spacing: -0.28px;
+    align-items: center;
+    gap: 4px;
+    font-size: 14px;
+    line-height: 140%;
+    display: flex;
+    text-decoration: none;
+  }
+  

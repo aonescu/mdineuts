@@ -1,0 +1,26 @@
+.container {
+    background-color: #fefdf8;
+    border-top: 1px solid #0003;
+    padding: 32px;
+    font-family: Onest, sans-serif;
+  }
+  
+  @media (width <= 640px) {
+    .container {
+      padding: 16px;
+    }
+  }
+  
+  .cardsGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    max-width: 680px;
+    display: grid;
+  }
+  
+  @media (width <= 991px) {
+    .cardsGrid {
+      grid-template-columns: 1fr;
+    }
+  }
+  

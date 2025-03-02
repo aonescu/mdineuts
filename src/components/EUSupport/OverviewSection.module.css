@@ -1,0 +1,58 @@
+.overviewSection {
+    max-width: 664px;
+    margin-bottom: 48px;
+  }
+  
+  .overviewTitle {
+    color: #0003;
+    letter-spacing: -1.44px;
+    margin-bottom: 16px;
+    font-size: 48px;
+  }
+  
+  @media (width <= 991px) {
+    .overviewTitle {
+      font-size: 36px;
+    }
+  }
+  
+  @media (width <= 640px) {
+    .overviewTitle {
+      font-size: 28px;
+    }
+  }
+  
+  .overviewHeading {
+    color: #1a1a1a;
+    letter-spacing: -1.92px;
+    margin-bottom: 32px;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 100%;
+  }
+  
+  @media (width <= 991px) {
+    .overviewHeading {
+      font-size: 36px;
+    }
+  }
+  
+  @media (width <= 640px) {
+    .overviewHeading {
+      font-size: 28px;
+    }
+  }
+  
+  .overviewDescription {
+    color: #333;
+    letter-spacing: -0.16px;
+    font-size: 16px;
+    line-height: 140%;
+  }
+  
+  @media (width <= 640px) {
+    .overviewDescription {
+      font-size: 14px;
+    }
+  }
+  
