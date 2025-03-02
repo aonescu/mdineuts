@@ -1,0 +1,36 @@
+.section {
+    border-top: 1px solid var(--UI-Dark-2, rgba(0, 0, 0, 0.2));
+    background-color: #fefdf8;
+    padding: 32px 32px 64px;
+    font-family:
+      Onest,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+    overflow: hidden;
+  }
+  
+  .cardGrid {
+    color: #000;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+    width: 100%;
+    margin-top: 64px;
+    display: flex;
+  }
+  
+  @media (max-width: 991px) {
+    .section {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    .cardGrid {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  

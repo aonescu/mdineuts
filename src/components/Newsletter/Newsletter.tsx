@@ -1,16 +1,28 @@
 "use client";
-import React from "react";
+import * as React from "react";
 import styles from "./Newsletter.module.css";
 import { NewsletterContent } from "./NewsletterContent";
+import { NewsletterForm } from "./NewsletterForm";
 import { NewsletterImage } from "./NewsletterImage";
 
-export const Newsletter = () => {
+export default function Newsletter() {
   return (
-    <section className={styles.newsletter}>
-      <NewsletterContent />
-      <NewsletterImage />
-    </section>
+    <>
+      <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css"
+      />
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Onest:wght@400;900&family=Inter:wght@400&display=swap"
+      />
+      <section className={styles.newsletterContainer}>
+        <div className={styles.newsletterContent}>
+          <NewsletterContent />
+          <NewsletterForm />
+        </div>
+        <NewsletterImage />
+      </section>
+    </>
   );
-};
-
-export default Newsletter;
+}

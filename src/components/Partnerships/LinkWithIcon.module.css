@@ -1,0 +1,28 @@
+.link {
+    letter-spacing: -0.28px;
+    justify-content: flex-start;
+    align-self: flex-start;
+    align-items: center;
+    gap: 2px;
+    min-height: 20px;
+    padding: 0 4px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .label {
+    margin: auto 0;
+  }
+  
+  .icon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 20px;
+    margin: auto 0;
+  }
+  

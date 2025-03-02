@@ -1,0 +1,435 @@
+==== BottomSection.tsx ====
+"use client";
+import React from "react";
+import styles from "./GreetingHeader.module.css";
+
+export const BottomSection: React.FC = () => {
+  return (
+    <section className={styles.bottomRow}>
+      <img
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/3f99aa74f9062c4ac415078c85cf21f83b454277"
+        alt=""
+        className={styles.statueImage}
+      />
+      <span className={styles.forText}>for</span>
+      <img
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/f0fa1ff81743f87764aaef7f7fda8201a2504b5d"
+        alt=""
+        className={styles.wheatImage}
+      />
+      <span className={styles.europeText}>Europe</span>
+      <img
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/a4e3366b2ec673d5253d2212f72c13853aaf036a"
+        alt=""
+        className={styles.flagImage}
+      />
+    </section>
+  );
+};
+
+------
+
+==== GreetingHeader.module.css ====
+.container {
+    background: linear-gradient(#fffc, #fffc), #0046ae;
+    min-height: 100vh;
+    padding: 96px 32px 32px;
+  }
+  
+  .content {
+    max-width: 1376px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    align-items: center;
+    margin-bottom: 24px;
+    display: flex;
+  }
+  
+  @media (width <= 640px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 16px;
+    }
+  }
+  
+  .smallImage {
+    object-fit: cover;
+    width: 39px;
+    height: 135px;
+  }
+  
+  .title {
+    letter-spacing: -7.6px;
+    color: #007a50;
+    font-family: Onest, sans-serif;
+    font-size: 190px;
+    font-weight: 900;
+    line-height: 90%;
+  }
+  
+  @media (width <= 991px) {
+    .title {
+      font-size: 140px;
+    }
+  }
+  
+  @media (width <= 640px) {
+    .title {
+      font-size: 80px;
+    }
+  }
+  
+  .largeImage {
+    object-fit: cover;
+    width: 531px;
+    height: 135px;
+    margin-left: 4px;
+  }
+  
+  .colon {
+    letter-spacing: -7.6px;
+    color: #007a50;
+    margin: 0 4px;
+    font-family: Onest, sans-serif;
+    font-size: 190px;
+    font-weight: 100;
+    line-height: 90%;
+  }
+  
+  @media (width <= 991px) {
+    .colon {
+      font-size: 140px;
+    }
+  }
+  
+  @media (width <= 640px) {
+    .colon {
+      font-size: 80px;
+    }
+  }
+  
+  .middleRow {
+    align-items: center;
+    margin-bottom: 24px;
+    display: flex;
+  }
+  
+  @media (width <= 640px) {
+    .middleRow {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 16px;
+    }
+  }
+  
+  .grassImage {
+    object-fit: cover;
+    width: 148px;
+    height: 135px;
+    margin-right: 4px;
+  }
+  
+  .readyText {
+    letter-spacing: -7.6px;
+    color: #007a50;
+    font-family: Onest, sans-serif;
+    font-size: 190px;
+    font-weight: 900;
+    line-height: 90%;
+  }
+  
+  @media (width <= 991px) {
+    .readyText {
+      font-size: 140px;
+    }
+  }
+  
+  @media (width <= 640px) {
+    .readyText {
+      font-size: 80px;
+    }
+  }
+  
+  .yellowBox {
+    background: linear-gradient(#fff6, #fff6), #ffd200;
+    border-radius: 8px;
+    margin-left: 4px;
+    padding: 8px;
+  }
+  
+  @media (width <= 991px) {
+    .yellowBox {
+      padding: 6px;
+    }
+  }
+  
+  @media (width <= 640px) {
+    .yellowBox {
+      width: 100%;
+    }
+  }
+  
+  .getThere {
+    color: #0009;
+    font-family: Onest, sans-serif;
+    font-size: 12px;
+    line-height: 140%;
+  }
+  
+  .flightInfo {
+    margin-top: 66px;
+  }
+  
+  .timeContainer {
+    align-items: center;
+    gap: 2px;
+    display: flex;
+  }
+  
+  .time {
+    color: #000c;
+    letter-spacing: -0.48px;
+    font-family: Onest, sans-serif;
+    font-size: 24px;
+  }
+  
+  .route {
+    color: #0006;
+    letter-spacing: -0.48px;
+    justify-content: space-between;
+    font-family: Onest, sans-serif;
+    font-size: 24px;
+    display: flex;
+  }
+  
+  .bottomRow {
+    align-items: center;
+    margin-bottom: 24px;
+    display: flex;
+  }
+  
+  @media (width <= 640px) {
+    .bottomRow {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 16px;
+    }
+  }
+  
+  .statueImage {
+    object-fit: cover;
+    width: 57px;
+    height: 135px;
+    margin-right: 4px;
+  }
+  
+  .forText {
+    letter-spacing: -7.6px;
+    color: #007a50;
+    font-family: Onest, sans-serif;
+    font-size: 190px;
+    font-weight: 900;
+    line-height: 90%;
+  }
+  
+  @media (width <= 991px) {
+    .forText {
+      font-size: 140px;
+    }
+  }
+  
+  @media (width <= 640px) {
+    .forText {
+      font-size: 80px;
+    }
+  }
+  
+  .wheatImage {
+    object-fit: cover;
+    width: 106px;
+    height: 135px;
+    margin: 0 4px;
+  }
+  
+  .europeText {
+    letter-spacing: -7.6px;
+    color: #007a50;
+    font-family: Onest, sans-serif;
+    font-size: 190px;
+    font-weight: 900;
+    line-height: 90%;
+  }
+  
+  @media (width <= 991px) {
+    .europeText {
+      font-size: 140px;
+    }
+  }
+  
+  @media (width <= 640px) {
+    .europeText {
+      font-size: 80px;
+    }
+  }
+  
+  .flagImage {
+    object-fit: cover;
+    width: 261px;
+    height: 135px;
+    margin-left: 4px;
+  }
+  
+  .description {
+    color: #4d4d4d;
+    letter-spacing: -0.4px;
+    max-width: 676px;
+    margin-top: 32px;
+    font-family: Onest, sans-serif;
+    font-size: 20px;
+    line-height: 130%;
+  }
+  
+  @media (width <= 991px) {
+    .description {
+      font-size: 18px;
+    }
+  }
+  
+  @media (width <= 640px) {
+    .description {
+      font-size: 16px;
+    }
+  }
+  
+------
+
+==== GreetingHeader.tsx ====
+"use client";
+import React from "react";
+import styles from "./GreetingHeader.module.css";
+import { HeaderSection } from "./HeaderSection";
+import { MiddleSection } from "./MiddleSection";
+import { BottomSection } from "./BottomSection";
+
+function GreetingHeader() {
+  return (
+    <>
+      <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css"
+      />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Onest:wght@100;400;900&display=swap"
+        rel="stylesheet"
+      />
+      <main className={styles.container}>
+        <div className={styles.content}>
+          <HeaderSection />
+          <MiddleSection />
+          <BottomSection />
+          <p className={styles.description}>
+            Nestled in the heart of Europe, Moldova stands as a testament to
+            resilience, ambition, and transformation. We are ready to contribute
+            our energy, creativity, and dedication to the EU's shared future.
+          </p>
+        </div>
+      </main>
+    </>
+  );
+}
+
+export default GreetingHeader;
+
+------
+
+==== HeaderSection.tsx ====
+"use client";
+import React from "react";
+import styles from "./GreetingHeader.module.css";
+
+export const HeaderSection: React.FC = () => {
+  return (
+    <header className={styles.header}>
+      <img
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/fad354a6be582510ece668cb5eb29cc06c754cbe"
+        alt=""
+        className={styles.smallImage}
+      />
+      <h1 className={styles.title}>Moldova</h1>
+      <img
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/1bb46c1b0ff8e5a5648be13df3615eb281614dc3"
+        alt=""
+        className={styles.largeImage}
+      />
+      <span className={styles.colon}>:</span>
+    </header>
+  );
+};
+
+------
+
+==== MiddleSection.tsx ====
+"use client";
+import React from "react";
+import styles from "./GreetingHeader.module.css";
+
+const PlaneIcon = () => (
+  <svg
+    width="20"
+    height="20"
+    viewBox="0 0 20 20"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <mask
+      id="mask0_1749_3638"
+      style={{ maskType: "alpha" }}
+      maskUnits="userSpaceOnUse"
+      x="0"
+      y="0"
+      width="20"
+      height="20"
+    >
+      <rect width="20" height="20" fill="#D9D9D9" />
+    </mask>
+    <g mask="url(#mask0_1749_3638)">
+      <path
+        d="M6.29648 17.5832V15.9838L8.73231 14.2738V11.1153L2.41669 13.6553V11.588L8.73231 7.22025V3.68421C8.73231 3.33574 8.85697 3.03734 9.10627 2.789C9.35544 2.54067 9.65481 2.4165 10.0044 2.4165C10.354 2.4165 10.6519 2.54067 10.8981 2.789C11.1445 3.03734 11.2677 3.33574 11.2677 3.68421V7.22025L17.5834 11.588V13.6553L11.2677 11.1153V14.2738L13.6954 15.9838V17.5832L10 16.4632L6.29648 17.5832Z"
+        fill="black"
+        fillOpacity="0.8"
+      />
+    </g>
+  </svg>
+);
+
+export const MiddleSection: React.FC = () => {
+  return (
+    <section className={styles.middleRow}>
+      <img
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/bb2a054f10cc266accaa8aecfd78c57acf4aa0a4"
+        alt=""
+        className={styles.grassImage}
+      />
+      <h2 className={styles.readyText}>Ready</h2>
+      <article className={styles.yellowBox}>
+        <p className={styles.getThere}>Get there</p>
+        <div className={styles.flightInfo}>
+          <div className={styles.timeContainer}>
+            <PlaneIcon />
+            <span className={styles.time}>3h</span>
+          </div>
+          <div className={styles.route}>
+            <span>From Brussels</span>
+            <span>to Chișinău</span>
+          </div>
+        </div>
+      </article>
+    </section>
+  );
+};
+
+------
+

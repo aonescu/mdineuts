@@ -1,41 +1,28 @@
-import React from 'react';
-import styles from './StoriesSection.module.css';
-import ArticleCard from './ArticleCard';
+"use client";
+import * as React from "react";
+import styles from "./StoriesSection.module.css";
+import { StoriesHeader } from "./StoriesHeader";
+import { FeaturedStory } from "./FeaturedStory";
+import { StoryList } from "./StoryList";
 
-interface StoriesSectionProps {
-  title: string;
-  subtitle: string;
-  description: string;
-  articles: Array<{
-    image: string;
-    header: string;
-    description: string;
-    content: string;
-    linkText: string;
-    linkIcon: string;
-  }>;
-}
-
-const StoriesSection: React.FC<StoriesSectionProps> = ({ title, subtitle, description, articles }) => {
+export function StoriesSection() {
   return (
-    <section className={styles.storiesSection}>
-      <div className={styles.contentWrapper}>
-        <div className={styles.textContainer}>
-          <div className={styles.headerWrapper}>
-            <h2 className={styles.sectionTitle}>{title}</h2>
-            <h3 className={styles.sectionSubtitle}>{subtitle}</h3>
-          </div>
-          <p className={styles.sectionDescription}>{description}</p>
-          <button className={styles.learnMoreButton}>Learn more</button>
+    <>
+      <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css"
+      />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Onest:wght@400;700;900&display=swap"
+        rel="stylesheet"
+      />
+      <section className={styles.storiesContainer}>
+        <StoriesHeader />
+        <div className={styles.contentSection}>
+          <FeaturedStory />
+          <StoryList />
         </div>
-        <div className={styles.articleList}>
-          {articles.map((article, index) => (
-            <ArticleCard key={index} {...article} />
-          ))}
-        </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
-};
-
-export default StoriesSection;
+}

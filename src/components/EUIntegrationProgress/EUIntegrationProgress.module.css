@@ -1,0 +1,167 @@
+.mainContainer {
+    border-top: 1px solid #0003;
+    gap: 16px;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 32px;
+    display: flex;
+  }
+  
+  @media (width<=991px) {
+    .mainContainer {
+      flex-direction: column;
+    }
+  }
+  
+  @media (width<=640px) {
+    .mainContainer {
+      padding: 16px;
+    }
+  }
+  
+  .leftSection {
+    flex: 1;
+    padding-right: 16px;
+  }
+  
+  .title {
+    letter-spacing: -1.92px;
+    color: #1a1a1a;
+    margin-bottom: 32px;
+    font-family: Onest, sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 100%;
+  }
+  
+  @media (width<=640px) {
+    .title {
+      letter-spacing: -1px;
+      font-size: 32px;
+    }
+  }
+  
+  .description {
+    letter-spacing: -0.16px;
+    color: #333;
+    max-width: 564px;
+    font-family: Onest, sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+  }
+  
+  @media (width<=640px) {
+    .description {
+      font-size: 14px;
+    }
+  }
+  
+  .rightSection {
+    background: linear-gradient(#fffc 0% 100%), #0046ae;
+    border-radius: 8px;
+    flex: 1;
+    padding: 32px;
+  }
+  
+  @media (width<=991px) {
+    .rightSection {
+      margin-top: 32px;
+    }
+  }
+  
+  @media (width<=640px) {
+    .rightSection {
+      padding: 16px;
+    }
+  }
+  
+  .numberRow {
+    gap: 8px;
+    margin-bottom: 16px;
+    display: flex;
+  }
+  
+  .numberactive {
+    letter-spacing: -1.44px;
+    color: #0003;
+    padding: 4px;
+    font-family: Onest, sans-serif;
+    font-size: 48px;
+    line-height: 90%;
+  }
+  
+  @media (width<=640px) {
+    .numberactive {
+      font-size: 32px;
+    }
+  }
+  
+  .number {
+    letter-spacing: -1.44px;
+    color: #0003;
+    padding: 4px;
+    font-family: Onest, sans-serif;
+    font-size: 48px;
+    line-height: 90%;
+  }
+  
+  @media (width<=640px) {
+    .number {
+      font-size: 32px;
+    }
+  }
+  
+  .contentTitle {
+    letter-spacing: -1.92px;
+    color: #1a1a1a;
+    margin-bottom: 32px;
+    font-family: Onest, sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 100%;
+  }
+  
+  @media (width<=640px) {
+    .contentTitle {
+      letter-spacing: -1px;
+      font-size: 32px;
+    }
+  }
+  
+  .contentDescription {
+    letter-spacing: -0.16px;
+    color: #333;
+    max-width: 564px;
+    font-family: Onest, sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+    white-space: pre-line;
+  }
+  
+  @media (width<=640px) {
+    .contentDescription {
+      font-size: 14px;
+    }
+  }
+  
+  .navigation {
+    justify-content: flex-end;
+    gap: 16px;
+    margin-top: auto;
+    display: flex;
+  }
+  
+  .navigation button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .navigation button:disabled {
+    cursor: not-allowed;
+  }
+  

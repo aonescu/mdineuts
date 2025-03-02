@@ -1,0 +1,184 @@
+.successStories {
+    background-color: #fefdf8;
+    border-top: 1px solid #0003;
+    padding: 32px 32px 64px;
+  }
+  
+  @media (width<=991px) {
+    .successStories {
+      padding: 24px;
+    }
+  }
+  
+  @media (width<=640px) {
+    .successStories {
+      padding: 16px;
+    }
+  }
+  
+  .header {
+    margin-bottom: 64px;
+  }
+  
+  .titleSection {
+    max-width: 680px;
+  }
+  
+  .subtitle {
+    color: #0003;
+    letter-spacing: -1.44px;
+    margin-bottom: 16px;
+    font-family: Onest, sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 100%;
+  }
+  
+  @media (width<=991px) {
+    .subtitle {
+      font-size: 36px;
+    }
+  }
+  
+  @media (width<=640px) {
+    .subtitle {
+      font-size: 28px;
+    }
+  }
+  
+  .title {
+    color: #1a1a1a;
+    letter-spacing: -1.92px;
+    margin-bottom: 32px;
+    font-family: Onest, sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 100%;
+  }
+  
+  @media (width<=991px) {
+    .title {
+      font-size: 36px;
+    }
+  }
+  
+  @media (width<=640px) {
+    .title {
+      font-size: 28px;
+    }
+  }
+  
+  .description {
+    color: #333;
+    letter-spacing: -0.16px;
+    font-family: Onest, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+  }
+  
+  .projects {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    display: grid;
+  }
+  
+  @media (width<=991px) {
+    .projects {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (width<=640px) {
+    .projects {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  .projectCard {
+    border: 1px solid #0003;
+    border-radius: 8px;
+    height: 100%;
+    padding: 16px;
+  }
+  
+  .projectNumber {
+    color: #0009;
+    margin-bottom: 24px;
+    font-family: Onest, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 140%;
+  }
+  
+  .projectContent {
+    flex-direction: column;
+    gap: 24px;
+    display: flex;
+  }
+  
+  .projectDetails {
+    flex-direction: column;
+    gap: 16px;
+    display: flex;
+  }
+  
+  .projectTitle {
+    color: #000c;
+    letter-spacing: -0.48px;
+    font-family: Onest, sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 130%;
+  }
+  
+  @media (width<=640px) {
+    .projectTitle {
+      font-size: 20px;
+    }
+  }
+  
+  .projectDescription {
+    color: #0009;
+    letter-spacing: -0.16px;
+    font-family: Onest, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+  }
+  
+  .impactBox {
+    background: linear-gradient(#fffc, #fffc), #ffd200;
+    border-radius: 8px;
+    padding: 8px;
+  }
+  
+  .impactLabel {
+    color: #0009;
+    margin-bottom: 16px;
+    font-family: Onest, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 140%;
+  }
+  
+  .impactContent {
+    gap: 4px;
+    display: flex;
+  }
+  
+  .impactText {
+    color: #000c;
+    letter-spacing: -0.48px;
+    font-family: Onest, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 130%;
+  }
+  
+  @media (width<=640px) {
+    .impactText {
+      font-size: 20px;
+    }
+  }
+  

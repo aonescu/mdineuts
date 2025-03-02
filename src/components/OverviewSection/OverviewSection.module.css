@@ -1,0 +1,46 @@
+.section {
+    border-top: 1px solid var(--UI-Dark-2, #0003);
+    padding: 32px 32px 64px;
+    overflow: hidden;
+  }
+  
+  .mainContent {
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+    gap: 16px;
+    width: 100%;
+    display: flex;
+  }
+  
+  .reformGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: stretch;
+    gap: 16px;
+    width: 100%;
+    margin-top: 32px;
+    font-family:
+      Onest,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+  }
+  
+  @media (width <= 991px) {
+    .section {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    .mainContent {
+      max-width: 100%;
+    }
+  
+    .reformGrid {
+      max-width: 100%;
+    }
+  }
+  

@@ -1,0 +1,367 @@
+.container {
+  background: linear-gradient(#fffc, #fffc), #0046ae;
+  min-height: 100vh;
+  padding: 96px 32px 32px;
+}
+
+.content {
+  max-width: 1376px;
+  margin: 0 auto;
+}
+
+.header {
+  align-items: center;
+  margin-bottom: 24px;
+  display: flex;
+}
+
+@media (width <= 640px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+}
+
+.smallImage {
+  object-fit: cover;
+  width: 39px;
+  height: 135px;
+}
+
+.title {
+  letter-spacing: -7.6px;
+  color: #007a50;
+  font-family: Onest, sans-serif;
+  font-size: 190px;
+  font-weight: 900;
+  line-height: 90%;
+}
+
+@media (width <= 991px) {
+  .title {
+    font-size: 140px;
+  }
+}
+
+@media (width <= 640px) {
+  .title {
+    font-size: 80px;
+  }
+}
+
+.largeImage {
+  object-fit: cover;
+  width: 531px;
+  height: 135px;
+  margin-left: 4px;
+}
+
+.colon {
+  letter-spacing: -7.6px;
+  color: #007a50;
+  margin: 0 4px;
+  font-family: Onest, sans-serif;
+  font-size: 190px;
+  font-weight: 100;
+  line-height: 90%;
+}
+
+@media (width <= 991px) {
+  .colon {
+    font-size: 140px;
+  }
+}
+
+@media (width <= 640px) {
+  .colon {
+    font-size: 80px;
+  }
+}
+
+.middleRow {
+  align-items: center;
+  margin-bottom: 24px;
+  display: flex;
+}
+
+@media (width <= 640px) {
+  .middleRow {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+}
+
+.grassImage {
+  object-fit: cover;
+  width: 148px;
+  height: 135px;
+  margin-right: 4px;
+}
+
+.readyText {
+  letter-spacing: -7.6px;
+  color: #007a50;
+  font-family: Onest, sans-serif;
+  font-size: 190px;
+  font-weight: 900;
+  line-height: 90%;
+}
+
+@media (width <= 991px) {
+  .readyText {
+    font-size: 140px;
+  }
+}
+
+@media (width <= 640px) {
+  .readyText {
+    font-size: 80px;
+  }
+}
+
+.yellowBox {
+  background: linear-gradient(#fff6, #fff6), #ffd200;
+  border-radius: 8px;
+  margin-left: 4px;
+  padding: 8px;
+}
+
+@media (width <= 991px) {
+  .yellowBox {
+    padding: 6px;
+  }
+}
+
+@media (width <= 640px) {
+  .yellowBox {
+    width: 100%;
+  }
+}
+
+.getThere {
+  color: #0009;
+  font-family: Onest, sans-serif;
+  font-size: 12px;
+  line-height: 140%;
+}
+
+.flightInfo {
+  margin-top: 66px;
+}
+
+.timeContainer {
+  align-items: center;
+  gap: 2px;
+  display: flex;
+}
+
+.time {
+  color: #000c;
+  letter-spacing: -0.48px;
+  font-family: Onest, sans-serif;
+  font-size: 24px;
+}
+
+.route {
+  color: #0006;
+  letter-spacing: -0.48px;
+  justify-content: space-between;
+  font-family: Onest, sans-serif;
+  font-size: 24px;
+  display: flex;
+}
+
+.bottomRow {
+  align-items: center;
+  margin-bottom: 24px;
+  display: flex;
+}
+
+@media (width <= 640px) {
+  .bottomRow {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+}
+
+.statueImage {
+  object-fit: cover;
+  width: 57px;
+  height: 135px;
+  margin-right: 4px;
+}
+
+.forText {
+  letter-spacing: -7.6px;
+  color: #007a50;
+  font-family: Onest, sans-serif;
+  font-size: 190px;
+  font-weight: 900;
+  line-height: 90%;
+}
+
+@media (width <= 991px) {
+  .forText {
+    font-size: 140px;
+  }
+}
+
+@media (width <= 640px) {
+  .forText {
+    font-size: 80px;
+  }
+}
+
+.wheatImage {
+  object-fit: cover;
+  width: 106px;
+  height: 135px;
+  margin: 0 4px;
+}
+
+.europeText {
+  letter-spacing: -7.6px;
+  color: #007a50;
+  font-family: Onest, sans-serif;
+  font-size: 190px;
+  font-weight: 900;
+  line-height: 90%;
+}
+
+@media (width <= 991px) {
+  .europeText {
+    font-size: 140px;
+  }
+}
+
+@media (width <= 640px) {
+  .europeText {
+    font-size: 80px;
+  }
+}
+
+.flagImage {
+  object-fit: cover;
+  width: 261px;
+  height: 135px;
+  margin-left: 4px;
+}
+
+.description {
+  color: #4d4d4d;
+  letter-spacing: -0.4px;
+  max-width: 676px;
+  margin-top: 32px;
+  font-family: Onest, sans-serif;
+  font-size: 20px;
+  line-height: 130%;
+}
+
+@media (width <= 991px) {
+  .description {
+    font-size: 18px;
+  }
+}
+
+@media (width <= 640px) {
+  .description {
+    font-size: 16px;
+  }
+}
+
+/* Add keyframes for animations */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes imageWidthAnimation {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+/* Apply animations to images */
+.smallImage, .largeImage, .grassImage, .wheatImage, .statueImage, .flagImage {
+  animation: imageWidthAnimation 1s ease-out forwards;
+  object-fit: cover;
+}
+
+/* Delay the animation slightly for different images */
+.smallImage {
+  animation-delay: 0.2s;
+}
+
+.largeImage {
+  animation-delay: 0.4s;
+}
+
+.grassImage {
+  animation-delay: 0.6s;
+}
+
+.wheatImage {
+  animation-delay: 0.8s;
+}
+
+.statueImage {
+  animation-delay: 1s;
+}
+
+.flagImage {
+  animation-delay: 1.2s;
+}
+
+/* Apply animation for text */
+.title, .colon, .readyText, .forText, .europeText {
+  animation: slideIn 1s ease-out forwards;
+}
+
+/* Add delay for text animations */
+.title {
+  animation-delay: 0.5s;
+}
+
+.colon {
+  animation-delay: 0.7s;
+}
+
+.readyText {
+  animation-delay: 1s;
+}
+
+.forText {
+  animation-delay: 1.2s;
+}
+
+.europeText {
+  animation-delay: 1.4s;
+}
+
+/* Optional: Add fading effect for description */
+.description {
+  animation: fadeIn 2s ease-out forwards;
+  opacity: 0;
+  animation-delay: 1.5s;
+}
